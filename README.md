@@ -1,7 +1,7 @@
 Terminal Gateway
 ================
 
-![Example Screenshot. Displays an Ubuntu terminal in a browser.](https://github.com/chrishalebarnes/terminal-gateway/blob/master/example.png?raw=true)
+![Example Screenshot. Displays an Ubuntu terminal in a browser.](https://raw.githubusercontent.com/chrishalebarnes/TerminalGateway/master/example.png?raw=true)
 
 An SSH terminal in a browser. This is currently a proof of concept. It uses [term.js](http://github.com/chjj/term.js) on the front end to communicate with [Sinatra](https://github.com/sinatra/sinatra) on the backend using websockets.
 
