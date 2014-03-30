@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="javascript/jquery.min.js" type="text/javascript"></script>
+    <script src="javascript/bootstrap.min.js" type="text/javascript"></script>  
+    <script src="javascript/term.js" type="text/javascript"></script>
+    <title>Terminal Gateway</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-container">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Terminal Gateway</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-container">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#connect" data-toggle="modal" data-target="#connect-modal">
+                <button type="button" class="btn btn-success">Connect</button>
+              </a>
+            </li>
+            <li>
+              <a href="#disconnect" class="hide">
+                <button type="button" class="btn btn-danger">Disconnect</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>    
+  </body>
+</html>

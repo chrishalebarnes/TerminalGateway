@@ -1,0 +1,8 @@
+@media all {
+  nav.navbar {
+    border-radius: 0px;
+  }
+}
+
+@import "bootstrap";
+@import "bootstrap/theme";

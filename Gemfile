@@ -1,0 +1,5 @@
+source "https://rubygems.org/"
+gem 'rack_csrf',"~> 2.4.0"
+gem "sinatra", "~> 1.4.4"
+gem "net-ssh", "~> 2.8.0"
+gem "sinatra-websocket", "~> 0.3.0"

@@ -1,0 +1,27 @@
+.form-horizontal .control-label {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.panel-body {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+
+.inner-center {
+    float: right;
+    right: -50%;
+    position: relative;
+}
